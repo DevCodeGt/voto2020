@@ -1,0 +1,960 @@
+@font-face {
+    font-family: MyriadPro-Light;
+    src: url(./Fonts/MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: Gotham-Black ;
+    src: url(./Fonts/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: Gotham-Rounded-Book;
+    src: url(./Fonts/GothamRoundedBook_21018.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+}
+  
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.blck{
+    font-family: "Gotham-Black";
+}
+
+.rnd{
+    font-family: "Gotham-Rounded-Book";
+}
+
+.header{
+    width: 100%;
+    display: grid;
+    height: auto;
+    grid-template-columns:  35% 30% 20% 15%;
+    grid-template-rows: unset;
+}
+
+.header1{
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    padding-left: 50px;
+    background-color: #000;
+    align-self: center;
+    height: 100%;
+    line-height: 4px;
+}
+
+.logosDiv{
+    /*justify-self: start;*/
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+}
+
+.logoInst{
+    padding-top: 20px;
+    width: 35%;
+}
+
+.fb{
+    width: 2.5%; 
+    padding-left: 2.5px;
+}
+.ig{
+    width: 5%;
+}
+.tw{
+    width: 5%;
+}
+.yt{
+    width:  5%;
+}
+.tituloHeader1{
+    /*display: block;*/
+    position: relative;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.tituloHeader1 p {
+    margin-top: 2vw;
+}
+
+.tituloHeader1{
+    justify-self: end;
+    align-self: center;
+}
+
+.p1{
+    font-size: 4vw;
+    right: 0px;
+    margin-bottom: 2vw;
+    padding-top: 10%; 
+}
+
+.p2{
+    font-size: 1.2vw;
+    letter-spacing: 2.9vw;
+    margin-bottom: 1.5vw;
+    padding-left: 0.5%;
+}
+
+.comisionHeader1{
+  display: none;
+}
+
+.fotoSaludo{
+    width: 100%;
+}
+
+.logos{
+    bottom: 0;
+    margin: 0.5vh 0;
+    cursor: pointer;
+}
+
+
+.logosDiv{
+    width: auto;
+}
+
+.lineaDivHeader{
+  display: none;
+}
+
+.lineaDivHeader2{
+  display: none;
+}
+
+.headerMidd{
+    width: 100%;
+    /*background: linear-gradient(50deg, rgb(51, 51, 51) 50%, rgb(253, 245, 11) 50%);*/
+    background-color: #000;
+}
+
+.lineaDivH{
+  display: none;
+}
+
+.lineaDivH2{
+  display: none;
+}
+
+.midHalf2{
+  display: none;
+}
+
+
+.headerAdd{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    align-self: center;
+}
+
+.fraseHeader{
+    width: 90%;
+    padding-top: 8%;
+    padding-left: 10%;
+}
+
+
+.header2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background-color: rgb(0, 0, 0);
+    width: 100%; 
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+.fraseDiv{
+    align-self: center;
+}
+
+.correoHeader{
+    width: 50%;
+    padding-left: 50%;
+    padding-top: 20px;
+}
+
+.fecha29{
+    width: 55%;
+    padding-left: 45%;
+}
+
+.tabsHeader{
+  display: none;
+}
+
+
+.goth{
+    font-family: "Gotham-Black";
+}
+.w{
+    color: white;
+}
+.yell{
+    color: rgb(253, 245, 11);
+}
+
+.tabs{
+    font-size: 11px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Gotham-Black";
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(253, 245, 11);
+    line-height: 20px;
+    /*margin-top: 10px;*/
+}
+
+.tab{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.marg{
+    border-right: 2px solid rgb(253, 245, 11);  
+}
+
+.containerWhiteSpace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.whiteSpaceLogo{
+    width: 100%;
+}
+.whiteSpaceLogoAbsolute{
+    position: absolute;
+    height: 15%;
+}
+
+/*   ---------  CONTENT  --------- */
+.content{
+    /*background-image: url("./img/Fondo4.jpg");*/
+    background-color: #000;
+    background-size: cover;
+    padding: 125px 50px 50px 50px;
+    grid-template-rows: repeat(5, auto);
+    width: auto;
+}
+
+.content1{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.content1-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-right: 35px;
+}
+
+.titleContent1{
+    position: relative;
+    display: block;
+    /*float: left;*/
+    height: auto;
+    font-size: 4vw; 
+    border-left: 5px solid white;
+    margin-top: 0;
+    padding-left: 20px;
+    
+}
+
+.titleContent1 p {
+    margin: 0;
+}
+
+.pContent1{
+    position: relative;
+    display: block;
+    /*float: left;*/
+    width: 65%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    line-height: 1.7;
+    font-family: "Gotham-Rounded-Book";
+}
+
+.firstP{
+    padding-right: 29%;
+    line-height: 1.7;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px; 
+	height: 0; 
+	overflow: hidden;
+	border-left: 2px solid yellow;
+	border-bottom: 2px solid yellow;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.videoPadd{
+	padding-right: 55%;
+	padding-bottom: 7%;
+}
+
+.videoPadd2{
+	padding-right: 30%;
+	/*padding-bottom: 5%;*/
+}
+
+.fechasYellow{
+    color: rgb(253, 245, 11);
+    font-family: "Gotham-Black";
+    padding: 20px 0px 10px 20px;
+    margin: 0px;
+}
+
+.fechasImp {
+    padding: 0px 0px 5px 20px ;
+    line-height: 20px;
+    color: white;
+    margin: 0px;
+    font-family: "Gotham-Black";
+}
+
+
+.content1-2{
+    line-height: 15px;
+}
+
+.fechaImpLogo{
+    padding-bottom: 30px; 
+    width: 65%;
+}
+
+.lineaEsquina{
+    position: absolute;
+    right: 70px;
+    width: 3%;
+}
+
+.separacion{
+    height: 150px;
+}
+
+.pContentAll{
+    position: relative;
+    display: block;
+    /*float: left;*/
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    line-height: 1.7;
+    font-family: "Gotham-Rounded-Book";
+}
+
+.masText{
+    line-height: 35px;
+    /*font-size: 18px;*/
+    font-family: "Gotham-Rounded-Book";
+}
+
+
+.activo{
+    /*background-image: url("./img/manos2.png");
+    background-size: cover; */
+    background-color: black;
+}
+
+.activoLine{
+    padding-bottom: 5vw;
+}
+
+.activosvg{
+    position: absolute;
+    left: 50px;
+    width: 60%;
+    transform: translateY(200%);
+}
+.activopng{
+    width: 100%;
+}
+.xArribaContainer{
+    background-color: white;
+}
+.xArribaPreg{
+    width: calc(100% + 100px);
+    transform: translate(-50px, 292%);
+    position: absolute;
+    left: 0;
+}
+
+.divVidText{ 
+    height: 50px;
+}
+
+.masInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.masInfoBack{
+    width: 100%;
+}
+.masInfoAbsolute{
+    position: absolute;
+    width: 50%;
+}
+
+.masInfo2{
+    display: none;
+}
+
+.blk{
+    color: black;
+}
+
+.masPreg{
+  font-size: 3.8vw; 
+  line-height: 5vw;
+  display: block;
+  position: relative;
+  margin-bottom: 7vw;
+}
+
+#preguntas-frecuentes{
+    /*width: 75%;*/
+}
+
+.contentInfo2{
+    padding: 10px 50px 50px 50px;
+    width: auto;
+}
+.prg{
+    font-size: 30px; 
+    line-height: 1.4px;
+}
+.inPrg{
+    height: 15px;
+}
+
+.last{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: rgb(253, 245, 11);
+}
+
+.lastImg{
+    width: 100%;
+}
+
+.divFooterRight{
+    justify-content: center;
+    align-content: center;
+}
+.fraseFooter{
+    box-sizing: border-box;
+    width: 90% ;
+    align-self: center;
+    background-color: rgb(253, 245, 11);
+    justify-self: center;
+    
+}
+.footer{
+    background-image: url("./img/svg/xs.svg");
+    background-size: cover;
+}
+
+.titlePreg{
+    position: relative;
+    display: block; 
+    height: auto;
+    font-size: 1.6vw; 
+    font-family: "Gotham-Black";
+}
+
+.lastCorreo{
+    width: 8%; 
+    padding: 30px 0px 30px 0px;
+}
+
+.titlePreg p {
+    margin: 0px;
+}
+
+.parrf{
+    margin-top: 10px;
+}
+.hideOnMobile{
+    display: block;
+}
+.showOnMobile{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .showOnMobile{
+        display: block;
+    }
+
+    .header{
+        width: auto;
+        display: grid;
+        height: 100%;
+        grid-template-columns: unset;
+        grid-template-rows: 35% 30% 35%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .header1{
+        width: auto;
+        height: 100%;
+        padding: 20px 20px 20px 20px;
+        background-color: rgb(0, 0, 0);
+        align-self: center;
+        /*line-height: 4px;*/
+        
+    }
+    .logoInst{
+        width: 30%;
+        height: auto;
+        padding-top: 10px;
+    }
+    .header1 br{
+        display: none;
+    }
+    .logosDiv{
+        display: none;
+    }
+
+    .logosDiv2{
+        display: block;
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+        box-sizing: border-box;
+        justify-self: center;
+        align-self: end;
+        padding-bottom: 15px;
+        width: auto;
+    }
+
+    .logos{
+        bottom: 0;
+        cursor: pointer;
+        margin: 0px 10px;
+        margin-bottom: 10px;
+    }
+    
+    .fb{
+        height: auto; 
+        width: 4.8%;
+        padding-left: 10%
+    }
+    .ig{
+        height: auto;
+        width: 10.5%;
+    }
+    .tw{
+        height: auto;
+        width: 11.8%;
+    }
+    .yt{
+        height: auto;
+        width: 13%;
+    }
+    .tituloHeader1{
+        position: relative;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .tituloHeader1 p {
+        margin-top: 3vw;
+        margin-bottom: 6vw;
+    }
+    
+    .tituloHeader1{
+        justify-self: center;
+        align-self: center;
+    }
+  
+    .divTitulo{
+      display: inline-block;
+    }
+    
+    .p1{
+        font-size: 9.5vw;
+        right: 0px;
+        letter-spacing: 0.1vw;
+    }
+    
+    .p2{
+        font-size: 2.5vw;
+        letter-spacing: 7.2vw;
+    }
+  
+    .comisionHeader1{
+      display: inline-block;
+      width: 9.5vw;
+     }
+
+    .headerMidd{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      /*background: rgb(253, 245, 11);*/
+      background-color: black;
+      justify-self: center;
+      border-bottom: 2px solid rgb(253, 245, 11);
+      border-top: 2px solid rgb(253, 245, 11);
+      padding-top: 5px;
+      padding-bottom: 5px;
+      overflow: hidden;
+    }
+    
+    .midHalf1{
+      /*background: linear-gradient(60deg, rgb(51, 51, 51) 50%, rgb(253, 245, 11) 50%);*/
+      background-color: black;
+    }
+  
+   .lineaDivH{
+     display: block;
+     height:5px; 
+     background-color: black;
+     border-bottom: 8px solid rgb(253, 245, 11);
+   }
+  
+   .lineaDivH2{
+     display: block;
+     height:5px; 
+     background-color: black;
+     border-top: 8px solid rgb(253, 245, 11);
+   }
+  
+    .fotoSaludo{
+       height: 100%;
+       width: auto;
+      /*transform: translatex(-6vw);*/
+    }
+  
+
+  
+    .midHalf2{
+      display: block;
+      align-self: center;
+      
+    }
+  
+  .MidFrase{
+    width: 70%;
+    margin: auto;
+  }
+
+
+
+    .header2{
+        display: none;
+        /*display: grid;
+        margin: 0px;
+        padding-right: 0px;
+        grid-template-columns: unset;
+        grid-template-rows: 10% 80% 10%;
+        background-color: rgb(253, 245, 11);
+        width: 100%; 
+        line-height: 2px;
+        */
+    }
+
+    .headerAdd{
+      height: 100%;
+      background-color: rgb(51, 51, 51);
+      font-family: "Gotham-Black";
+        
+    }
+    
+    .fraseDiv{
+      display: none;
+    }
+  
+    .fraseHeader{
+        height: 60%;
+        padding-top: auto;
+    }
+    
+    .correoDiv{
+        display: none; /**/
+    }
+    
+    .correoHeader{
+        display: none; /**/
+    }
+    
+    .fechaDiv{
+        display: none; /**/
+    }
+    
+    .fecha29{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        width: 100%;
+        padding-top: 45%;
+        display: none; /**/
+    }
+  
+    .tabsHeader{
+      display: flex;
+      letter-spacing: 2px;
+      font-family: "Gotham-Black";
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      background-color: black;
+    }
+
+    .tabs{
+        display:none;
+      /*
+      font-size: 11px;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Gotham-Black";
+        display: block;
+        position: relative;
+        float: left;
+        width: 100%;
+        height: auto;
+        background-color: rgb(51, 51, 51);
+        border-bottom: 10px solid rgb(253, 245, 11);
+        line-height: 20px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      */
+    }
+    
+    .tab{
+      display: block;
+      padding-bottom: 3vw;
+      padding-top: 3vw;
+      font-size: 1rem;
+      letter-spacing: 4px;
+    }
+
+    .marg{
+        border-right: 0px;  
+    }
+
+    .containerWhiteSpace{
+        background: url("./img/svg/x-pregs.svg");
+        height: 20%;
+        background-size: contain;
+    }
+  
+  .divToContent{
+    border-bottom: 5px solid rgb(253, 245, 11);
+    /*padding-top: 4px;
+    background-color: black;*/
+  }
+
+    .content{
+        background-image: url("./img/FondoPhone.jpg");
+        background-size: cover;
+        padding: 0px 25px;
+        grid-template-rows: repeat(5, auto);
+        width: auto;
+    }
+
+    .content1-2 p {
+        font-size: 3.5vw;
+    }
+    .fechaImpLogo{
+        padding-bottom: 5px; 
+        width: 50%;
+    }
+
+    .fechasYellow{
+        padding: 20px 0px 5px 20px;
+    }
+    
+    .fechaInfo{
+        margin-bottom: 80px;
+    }
+    
+    .videoPadd{
+	    padding-right: 0;
+	    padding-bottom: 15%;
+    }
+
+    .videoPadd2{
+	    padding-right: 0;
+	    padding-bottom: 25%;
+    }
+    
+    .content1{
+        display: grid;
+        width: 100%;
+        height: auto;
+        padding-top: 25px;
+        grid-template-columns: unset;
+        grid-template-rows: 25% 60% ;
+        
+    }
+    
+    .content1-1{
+        padding-top: 25%;
+        padding-left: 10px;
+        padding-right: 0px;
+        grid-column-start: unset;
+        grid-column-end: unset;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: auto;
+    }
+
+    .titleContent1{
+        font-size: 5.3vw;
+        padding-left: 15px;
+    }
+
+    .pContent1{
+        width: 100%;
+    }
+    
+    .firstP{
+        padding-right: 0;
+    }
+
+    .lineaEsquina{
+        position: absolute;
+        right: 30px;
+        width: 3%;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .separacion{
+        height: 50px;
+    }
+    
+    .pContentAll p {
+        margin-bottom: 0px;
+        line-height: 1.5;
+    }
+
+    .activo{
+    /*background-image: url("./img/manos2.png");
+    background-size: cover; 
+    padding-top: 15vw;
+    padding-bottom: 10vw;*/
+    
+    }
+
+    .activoLine{
+        padding-bottom: 5vw;
+    }
+
+    /*.masInfo{
+        padding-top: 20vw;
+    }*/
+
+    .masInfoAbsolute {
+        position: absolute;
+        width: 75%;
+    }
+
+    .masInfo2{
+        display: none;
+        padding-bottom: 20px;
+    }
+
+    #preguntas-frecuentes{
+        width: 99%;
+        height: auto;
+
+    }
+
+    .titlePreg{
+        font-size: 5vw;
+    }
+  
+  .contenido{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .active, .collapsible:hover {
+    color: rgb(51, 51, 51);
+  }
+
+    .contentInfo2 p{
+        font-size: 3.5vw;
+    }
+
+    .lastCorreo{
+        width: 10%; 
+        padding: 0px;
+    }
+   
+}
+
+@media only screen and (max-width: 456px) {
+  .fotoSaludo{
+    /*transform: translatex(-11vw);*/
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .fotoSaludo{
+    /*transform: translatex(-12vw);*/
+  }
+}
+
+/*
+@media only screen and (min-width: 1416px){
+  .masInfo{
+        display: none;
+        visibility: hidden;
+    }
+    .masInfo2{
+        display: block;
+        padding-bottom: 20px;
+    }
+}*/

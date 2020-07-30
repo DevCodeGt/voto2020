@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9.58" height="20.63" viewBox="0 0 9.58 20.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>facebook-L</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M2.11,10.4v10a.26.26,0,0,0,.26.26H6.08a.26.26,0,0,0,.26-.26V10.23H9A.25.25,0,0,0,9.28,10l.26-3.06a.26.26,0,0,0-.26-.28H6.34V4.49a.92.92,0,0,1,.92-.92H9.32a.25.25,0,0,0,.26-.26v-3A.26.26,0,0,0,9.32,0H5.83A3.72,3.72,0,0,0,2.11,3.71v3H.26A.26.26,0,0,0,0,6.92V10a.26.26,0,0,0,.26.26H2.11Z"/>
+    </g>
+  </g>
+</svg>

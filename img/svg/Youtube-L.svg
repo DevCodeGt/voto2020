@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.3" height="14.21" viewBox="0 0 20.3 14.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Youtube-L</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M20.3,4.42A4.42,4.42,0,0,0,15.88,0H4.42A4.42,4.42,0,0,0,0,4.42V9.79a4.42,4.42,0,0,0,4.42,4.42H15.88A4.42,4.42,0,0,0,20.3,9.79Zm-7.23,3L8.5,9.88c-.2.11-.38,0-.38-.26V4.48c0-.23.18-.38.38-.26l4.61,2.64a.3.3,0,0,1,0,.52"/>
+    </g>
+  </g>
+</svg>
